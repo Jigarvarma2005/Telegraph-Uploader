@@ -74,3 +74,6 @@ async def telegraph(bot, message):
                             )
     finally:
         os.remove(down_loc)
+
+
+jvbot.run()
